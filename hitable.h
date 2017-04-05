@@ -19,3 +19,5 @@ class hitable
 public:
 	virtual bool hit(const ray &r, float tMin, float tmax, hitRecord &rec) const = 0;
 };
+
+

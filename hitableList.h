@@ -14,9 +14,6 @@ public:
 		list = l;
 		listSize = n;
 	}
-
-
-
 };
 
 bool hitableList::hit(const ray& r, float tMin, float tMax, hitRecord& rec) const
